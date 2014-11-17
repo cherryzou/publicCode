@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta content="telephone=no" name="format-detection" />
+	<script type="text/javascript" src="script/jquery.min.js"></script>
+	<title>彩票</title>
+	<link rel="stylesheet" type="text/css" href="style/base.css">
+	<link rel="stylesheet" type="text/css" href="style/ball.css">
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+</head>
+<body>
+<!-- 固定标题 [[ -->
+	<div class="lottery-title title-fix">
+		<a href="#" class="back"><b></b>返回</a>
+		<h2>苏宁彩票</h2>
+		<a href="#" class="readme">说明</a>
+	</div>
+<!-- 固定标题 [[ -->
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<hr class="cl"/>
+	<!-- 红球组合 [[ -->
+	   <ul class="ball-style ball-cRed">
+		   <li class="on"><span>01</span></li>
+		   <li><span>22</span></li>
+		   <li><span>33</span></li>
+	   </ul>
+	<!-- 红球组合 ]] -->
+	<!-- 蓝球组合 [[ -->
+	   <ul class="ball-style ball-cBlue">
+		   <li><span>01</span></li>
+		   <li class="on"><span>22</span></li>
+		   <li><span>33</span></li>
+	   </ul>
+	<!-- 蓝球组合 ]] -->
+	<!-- 单个红球 [[ -->
+	  <div class="ball-style-once red-ball-once ball-cRed"><span>22</span></div>
+	<!-- 单个红球 ]] -->
+	<hr class="cl"/>
+	<!-- 进度条 [[ -->
+	   <div class="ball-progress">
+		   <em class="red-ball-progress" style="width:50%;"></em>
+	   </div>
+		<div class="ball-progress">
+			<em class="blue-ball-progress" style="width:10%;"></em>
+		</div>
+	<!-- 进度条 ]] -->
+	<hr class="cl"/>
+	<!-- 底部固定菜单 ]]-->
+	<div class="index-bottom-menu">
+		<ul>
+			<li><a href="#"><em class="buy-cp on"></em><p>买彩票</p></a></li>
+			<li><a href="#"><em class="look-cp"></em><p>看开奖</p></a></li>
+			<li><a href="#"><em class="my-cp"></em><p>我的彩票</p></a></li>
+			<li><a href="#"><em class="more-cp"></em><p>更多</p></a></li>
+		</ul>
+		<i class="opacity"></i>
+	</div>
+	<!-- 底部固定菜单 ]]-->
+	<hr class="cl"/>
+	<!-- 彩票列表 [[-->
+	<div class="w fix">
+		<div class="index-list">
+		    <ul>
+			    <li>
+				    <a href="http://m.suning.com" class="list-item">
+					    <img src="images/ssq.png" class="img" width="65" height="65" />
+					    <dl>
+						    <dt><span class="ft15">双色球</span><span class="index-tip orange-tip"><em></em>今日开奖</span>第10324期</dt>
+						    <dd>奖池滚存：<span class="snPrice"><em>&yen;</em><i>132,354,968</i></span></dd>
+						    <dd>2013-07-25&nbsp;&nbsp;12:35:20截至</dd>
+					    </dl>
+				    </a>
+			    </li>
+			    <li>
+				    <a href="#" class="list-item">
+				    	<div class="round-wrap">
+				    		<!-- 大于50%的情况 dom结构不一样 -->
+				    		<!-- 假设值是90%，公式：angle = 180/(50/(100-90)) = 36  -->
+					        <div class="l-round pie" style="-webkit-transform: rotate(-36deg);"></div>
+				    		<div class="r-round pie" style="-webkit-transform: rotate(0deg);"></div>
+					        <!-- 大于50%，maskleft不显示 -->
+					        <div class="maskinner">
+					        	<div>90%,保76%</div>
+					        </div>
+				    	</div>
+					    <dl>
+						    <dt><span class="ft15">七星彩</span><span class="index-tip"><em></em>加奖中</span>第10324期</dt>
+						    <dd>奖池滚存：<span class="snPrice"><em>&yen;</em><i>132,354,968</i></span></dd>
+						    <dd>2013-07-25&nbsp;&nbsp;12:35:20截至</dd>
+					    </dl>
+				    </a>
+			    </li>
+			    <li>
+				    <a href="#" class="list-item">
+				    	<div class="round-wrap">
+				    		<!-- 小于50%的情况 dom结构不一样-->
+				    		<!-- 假设是值是30%，公式：angle = 180/(50/30) = 108 -->
+					        <div class="l-round pie" style="-webkit-transform: rotate(108deg);"></div>
+					        <div class="maskleft"></div>
+					        <div class="maskinner">
+					        	<div>96%,保76%</div>
+					        </div>
+				    	</div>
+					    <dl>
+						    <dt><span class="ft15">七星彩</span><span class="index-tip"><em></em>加奖中</span>第10324期</dt>
+						    <dd>奖池滚存：<span class="snPrice"><em>&yen;</em><i>132,354,968</i></span></dd>
+						    <dd>2013-07-25&nbsp;&nbsp;12:35:20截至</dd>
+					    </dl>
+				    </a>
+			    </li>
+			    <li>
+				    <a href="#" class="list-item">
+					    <img src="images/ssc.png" class="img" width="65" height="65" />
+					    <dl>
+						    <dt><span class="ft15">时时彩</span><span class="index-tip"><em></em>加奖中</span>第10324期</dt>
+						    <dd>&nbsp;</dd>
+						    <dd>2013-07-25&nbsp;&nbsp;12:35:20截至</dd>
+					    </dl>
+				    </a>
+			    </li>
+			    <li>
+				    <a href="#" class="list-item">
+					    <img src="images/jc.png" class="img" width="65" height="65" />
+					    <dl>
+						    <dt><span class="ft15">七星彩</span><span class="index-tip"><em></em>加奖中</span>第10324期</dt>
+						    <dd>奖池滚存：<span class="snPrice"><em>&yen;</em><i>132,354,968</i></span></dd>
+						    <dd>2013-07-25&nbsp;&nbsp;12:35:20截至</dd>
+					    </dl>
+				    </a>
+			    </li>
+			    <li>
+				    <a href="#" class="list-item">
+					    <img src="images/ssc.png" class="img" width="65" height="65" />
+					    <dl>
+						    <dt><span class="ft15">时时彩</span><span class="index-tip"><em></em>加奖中</span>第10324期</dt>
+						    <dd>&nbsp;</dd>
+						    <dd>2013-07-25&nbsp;&nbsp;12:35:20截至</dd>
+					    </dl>
+				    </a>
+			    </li>
+			    <li>
+				    <a class="list-item">
+					    <img src="images/jc.png" class="img" width="65" height="65" />
+					    <dl>
+						    <dt><span class="ft15">七星彩</span><span class="index-tip"><em></em>加奖中</span>第10324期</dt>
+						    <dd>奖池滚存：<span class="snPrice"><em>&yen;</em><i>132,354,968</i></span></dd>
+						    <dd>2013-07-25&nbsp;&nbsp;12:35:20截至</dd>
+					    </dl>
+				    </a>
+			    </li>
+			    <li>
+				    <a href="#" class="list-item">
+					    <img src="images/ssc.png" class="img" width="65" height="65" />
+					    <dl>
+						    <dt><span class="ft15">时时彩</span><span class="index-tip"><em></em>加奖中</span>第10324期</dt>
+						    <dd>&nbsp;</dd>
+						    <dd>2013-07-25&nbsp;&nbsp;12:35:20截至</dd>
+					    </dl>
+				    </a>
+			    </li>
+			    
+		    </ul>
+	    </div>
+	</div>
+	    
+	<!-- 彩票列表 ]]-->
+	<!-- 左侧菜单 ]]-->
+   <div class="index-left-menu">
+	   <div class="menu-links">
+	   </div>
+	   <div class="menu-links hide">
+		   <ul>
+			   <li class="all">全部</li>
+			   <li><a href="#">福彩3D</a></li>
+			   <li><a href="#">排列五</a></li>
+			   <li><a href="#">七乐彩</a></li>
+			   <li><a href="#">竞彩篮球</a></li>
+			   <li><a href="#">胜负彩</a></li>
+			   <li><a href="#">胜负彩</a></li>
+		   </ul>
+		   <ul>
+			   <li><a href="#">福彩3D</a></li>
+			   <li><a href="#">福彩3D</a></li>
+			   <li><a href="#">排列五</a></li>
+			   <li><a href="#">七乐彩</a></li>
+			   <li><a href="#">竞彩篮球</a></li>
+			   <li><a href="#">胜负彩</a></li>
+			   <li><a href="#">胜负彩</a></li>
+		   </ul>
+		   <ul>
+			   <li><a href="#">福彩3D</a></li>
+			   <li><a href="#">福彩3D</a></li>
+			   <li><a href="#">排列五</a></li>
+			   <li><a href="#">七乐彩</a></li>
+			   <li><a href="#">竞彩篮球</a></li>
+			   <li><a href="#">胜负彩</a></li>
+			   <li><a href="#">胜负彩</a></li>
+		   </ul>
+	   </div>
+	   <div class="menu-links hide">
+		   <ul>
+			   <li class="all">全部</li>
+			   <li><a href="#">福彩3D</a></li>
+			   <li><a href="#">排列五</a></li>
+			   <li><a href="#">七乐彩</a></li>
+			   <li><a href="#">竞彩篮球</a></li>
+			   <li><a href="#">胜负彩</a></li>
+			   <li><a href="#">胜负彩</a></li>
+		   </ul>
+	   </div>
+		   <ul class="menu-choose">
+			   <li class="on"><em class="own-buy"></em><p>自选</p><i class="arrow-left"></i></li>
+			   <li><em class="join-buy"></em><p>全买</p><i class="arrow-left"></i></li>
+			   <li ><em  class="quick-info"></em><p>快讯</p><i class="arrow-left"></i></li>
+		   </ul>
+   </div>
+	<!-- 底部固定透明层 [[-->
+	<div class="opacity-black next-option" style="bottom:0;">
+		<ul class="w fix">
+			<li><a href="#" class="del-option"></a></li>
+			<li><span>10注&times;1倍=2000000000元</span></li>
+			<li><a href="#" class="btn orange-btn">下一步</a></li>
+		</ul>
+	</div>
+	<!-- 底部固定透明层 ]]-->
+
+</body>

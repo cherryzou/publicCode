@@ -1,0 +1,64 @@
+/*价格*/
+.snPrice{color:#D0003E;font-size:15px;}
+.snPrice em{margin-right:2px;font-family:"Arial";}
+.snPrice i{font-family:"Tahoma";}
+
+/*标签*/
+.index-tip{display:inline-block;position:relative;top:-2px;padding:3px;margin:0 15px 0 10px;-webkit-border-radius:2px;background:#0387DB;color:#FFF;}
+.index-tip em{display:block;position:absolute;left:-3px;top:6px;width:6px;height:6px;background:#0387DB;-webkit-transform:rotate(135deg);}
+.orange-tip{background:#FF7E00;}
+.orange-tip em{background:#FF7E00;}
+
+/*首页*/
+.index-top{height:20px;overflow:hidden;}
+.index-top li{height:20px;line-height:20px;overflow:hidden; }
+.index-top li span{margin:0 25px 0 15px;}
+
+.index-flash{position:relative;width:310px;margin:0 auto;}
+.index-flash .arrow-down{display:none;}
+.flash-wrap{position:relative;width:310px;height:73px;overflow:hidden;}
+.flash-wrap .flash-ul{position:absolute;left:0;top:0;width:310px;height:73px;}
+.flash-wrap .flash-ul li{position:relative;float:left;width:310px;height:73px;}
+.flash-wrap .flash-ul li img{display:block;-webkit-border-radius:5px;}
+.flash-wrap .num{position:absolute;left:145px;bottom:2px;}
+.flash-wrap .num li{float:left;display:inline-block;width:8px;height:8px;margin-right:3px;-webkit-border-radius:8px;background:#7F7F7F;}
+.flash-wrap .num li.cur{-webkit-box-shadow:0px 1px 2px #333;background:#FF9600;}
+.flash-wrap .close{display:block;position:absolute;right:5px;top:5px;font:bold 18px/14px "Tahoma";color:#D51951;}
+.flash-nav{height:15px;background:#FFF;}
+.flash-nav img{display:block;margin:0 auto;}
+
+.index-list{float:right;margin:10px 0 55px;}
+.index-list .list-item{display:block;width:260px;height:65px;padding:5px;-webkit-border-top-left-radius:70px;-webkit-border-bottom-left-radius:70px;-webkit-box-shadow:0px 1px 2px #999;background:#FFF;}
+.index-list ul li{margin-bottom:8px;}
+.index-list .list-item .img{float:left;margin-right:10px;}
+.index-list .list-item dl{margin-top:8px;}
+.index-list .list-item dl dt{}
+.index-list .list-item dl dd{height:20px;line-height:20px;color:#333;}
+
+.index-left-menu{position:fixed;left:0;top:160px;height:252px;-webkit-box-shadow:-1px 0 2px #666;-webkit-border-top-right-radius:5px;-webkit-border-bottom-right-radius:5px;z-index:2;}
+.index-left-menu .menu-links ul,.index-left-menu .menu-links{float:left;}
+.index-left-menu .menu-links li{width:74px;border-right:1px solid #B1B1B1;border-bottom:1px solid #B1B1B1;-webkit-box-shadow:0 1px 1px #F3F3F3;background:#EEE;text-align:center;}
+.index-left-menu .menu-links li.all{height:35px;background:#FFF;line-height:35px;color:#B11B1C;}
+.index-left-menu .menu-links li a{display:inline-block;width:74px;height:35px;line-height:35px;}
+.index-left-menu .menu-links li:last-child{border-bottom:0 none;}
+.index-left-menu .menu-choose{float:left;width:50px;}
+.index-left-menu .menu-choose li{width:50px;height:83px;border-right:1px solid #B1B1B1;background:#FFF;text-align:center;cursor:pointer;}
+.index-left-menu .menu-choose li:first-child{-webkit-border-top-right-radius:5px;border-bottom:1px solid #B1B1B1;}
+.index-left-menu .menu-choose li:last-child{height:84px;-webkit-border-bottom-right-radius:5px;border-top:1px solid #B1B1B1;}
+.index-left-menu .menu-choose em{display:inline-block;width:25px;height:15px;margin:20px 0 5px;background-repeat:no-repeat;background-size:25px 15px;}
+.index-left-menu .menu-choose em.own-buy{background-image:url('images/own_buy.png');}
+.index-left-menu .menu-choose em.join-buy{background-image:url('images/join_buy.png');}
+.index-left-menu .menu-choose em.quick-info{background-image:url('images/quick_info.png');}
+.index-left-menu .menu-choose li.on em.own-buy{background-image:url('images/own_buy_on.png');}
+.index-left-menu .menu-choose li.on em.join-buy{background-image:url('images/join_buy_on.png');}
+.index-left-menu .menu-choose li.on em.quick-info{background-image:url('images/quick_info_on.png');}
+.index-left-menu .menu-choose li.on{position:relative;background:#B11B1C;color:#FFF;}
+/*.index-left-menu .menu-choose li.on .arrow-left{display:block;position:absolute;left:-5px;top:30px;
+    width:10px;height:10px;background:#B11B1C;-webkit-transform:rotate(135deg);}*/
+.index-left-menu .menu-choose li.on .arrow-left{display:block;position:absolute;left:-9px;top:30px;
+    width:9px;height:10px;background:url('images/arrow_left.png') no-repeat;background-size:9px 10px;}
+
+
+
+
+

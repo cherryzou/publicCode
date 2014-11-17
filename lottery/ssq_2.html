@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta content="telephone=no" name="format-detection" />
+	<script type="text/javascript" src="script/jquery.min.js"></script>
+	<script type="text/javascript" src="script/lottery_touch.js"></script>
+	<script type="text/javascript" src="script/ball.js"></script>
+	<title>双色球</title>
+	<link rel="stylesheet" type="text/css" href="style/base.css">
+	<link rel="stylesheet" type="text/css" href="style/ball.css">
+</head>
+<body>
+	<!-- 标题 [[-->
+	<div class="lottery-title title-fix">
+		<a href="#" class="back"><b></b>返回</a>
+		<h2>双色球</h2>
+		<a href="#" class="readme">说明</a>
+	</div>
+	<!-- 标题 ]]-->
+	<!-- 双色球 [[-->
+	<div  class="ball-main mt44">
+			<ul class="tab-lottery">
+				<li><a href="javascript:void(0);">近期开奖</a></li>
+				<li  class="on" ><a href="javascript:void(0);">数据分析</a></li>
+			</ul>
+			<div class="tab-count hide">
+			    <div class="recent-lottery mb50">
+				      <ul>
+					      <li>第<i class="c3">13078</i>期：<i class="ball-cRed">09&nbsp;12&nbsp;22&nbsp;32&nbsp;34&nbsp;02</i>&nbsp;|&nbsp;<i class="ball-cBlue">04</i></li>
+					      <li>第<i class="c3">13078</i>期：<i class="ball-cRed">09&nbsp;12&nbsp;22&nbsp;32&nbsp;34&nbsp;02</i>&nbsp;|&nbsp;<i class="ball-cBlue">04</i></li>
+					      <li>第<i class="c3">13078</i>期：<i class="ball-cRed">09&nbsp;12&nbsp;22&nbsp;32&nbsp;34&nbsp;02</i>&nbsp;|&nbsp;<i class="ball-cBlue">04</i></li>
+					      <li>第<i class="c3">13078</i>期：<i class="ball-cRed">09&nbsp;12&nbsp;22&nbsp;32&nbsp;34&nbsp;02</i>&nbsp;|&nbsp;<i class="ball-cBlue">04</i></li>
+					      <li>第<i class="c3">13078</i>期：<i class="ball-cRed">09&nbsp;12&nbsp;22&nbsp;32&nbsp;34&nbsp;02</i>&nbsp;|&nbsp;<i class="ball-cBlue">04</i></li>
+				      </ul>
+			    </div>
+			</div>
+			<div class="tab-count ">
+				 <div class="special-num ball-border fix">
+					 <p><span class="c3">热号</span>&nbsp;&nbsp;近100期开奖号码出现最多的号码</p>
+					 <ul>
+						 <li>
+							 <span class="ball-style-once red-ball-once ball-cRed"><span>22</span></span>
+							 <div class="ball-progress">
+								 <em class="red-ball-progress" style="width:70px;"></em>
+							 </div>
+							 <span class="num-count"><i>20</i>次/<em>100</em></span>
+						 </li>
+						 <li>
+							 <span class="ball-style-once red-ball-once ball-cRed"><span>22</span></span>
+							 <div class="ball-progress">
+								 <em class="red-ball-progress" style="width:60px;"></em>
+							 </div>
+							 <span class="num-count"><i>20</i>次/<em>100</em></span>
+						 </li>
+						 <li>
+							 <span class="ball-style-once red-ball-once ball-cRed"><span>22</span></span>
+							 <div class="ball-progress">
+								 <em class="red-ball-progress" style="width:50px;"></em>
+							 </div>
+							 <span class="num-count"><i>20</i>次/<em>100</em></span>
+						 </li>
+						 <li>
+							 <span class="ball-style-once blue-ball-once ball-cRed"><span>22</span></span>
+							 <div class="ball-progress">
+								 <em class="red-ball-progress" style="width:40px;"></em>
+							 </div>
+							 <span class="num-count"><i>20</i>次/<em>100</em></span>
+						 </li>
+					 </ul>
+				 </div>
+				 <div class="special-num ball-border fix">
+					<p><span class="c3">冷号</span>&nbsp;&nbsp;近100期开奖号码出现最多的号码</p>
+					<ul>
+						<li>
+							<span class="ball-style-once red-ball-once ball-cRed"><span>22</span></span>
+							<div class="ball-progress">
+								<em class="blue-ball-progress" style="width:70px;"></em>
+							</div>
+							<span class="num-count"><i>100</i>次/<em>100</em></span>
+						</li>
+						<li>
+							<span class="ball-style-once red-ball-once ball-cRed"><span>22</span></span>
+							<div class="ball-progress">
+								<em class="blue-ball-progress" style="width:60px;"></em>
+							</div>
+							<span class="num-count"><i>20</i>次/<em>100</em></span>
+						</li>
+						<li>
+							<span class="ball-style-once red-ball-once ball-cRed"><span>22</span></span>
+							<div class="ball-progress">
+								<em class="blue-ball-progress" style="width:50px;"></em>
+							</div>
+							<span class="num-count"><i>20</i>次/<em>100</em></span>
+						</li>
+						<li >
+							<span class="ball-style-once blue-ball-once ball-cRed"><span>22</span></span>
+							<div class="ball-progress">
+								<em class="blue-ball-progress" style="width:40px;"></em>
+							</div>
+							<span class="num-count"><i>20</i>次/<em>100</em></span>
+						</li>
+					</ul>
+				</div>
+				<div class="win-num" id="ssq" name="ssq">
+						<p>第13072期：09&nbsp;12&nbsp;22&nbsp;32&nbsp;34&nbsp;02&nbsp;|&nbsp;04
+						<em class="arrow-down" onclick="setTimeout(scrollTo, 100 ,0 ,1);$(this).addClass('on');"></em></p>
+						<i id="ssq" name="ssq" class="pos"></i>
+				</div>
+				<div class="choose-ball ball-pos mb50">
+						<p class="ft15">至少选择6个红球，1个蓝球</p>
+						<ul class="ball-style ball-cRed fix">
+							<li class="on"><span>01</span></li>
+							<li><span>02</span></li>
+							<li><span>03</span></li>
+							<li><span>04</span></li>
+							<li><span>05</span></li>
+							<li class="on"><span>06</span></li>
+							<li><span>07</span></li>
+							<li><span>08</span></li>
+							<li class="on"><span>09</span></li>
+							<li><span>10</span></li>
+							<li><span>11</span></li>
+							<li><span>12</span></li>
+							<li class="on"><span>13</span></li>
+							<li><span>14</span></li>
+							<li><span>15</span></li>
+							<li><span>16</span></li>
+							<li><span>17</span></li>
+							<li class="on"><span>18</span></li>
+							<li><span>19</span></li>
+							<li><span>20</span></li>
+							<li class="on"><span>21</span></li>
+							<li><span>22</span></li>
+							<li><span>23</span></li>
+							<li><span>24</span></li>
+							<li><span>25</span></li>
+							<li><span>26</span></li>
+							<li><span>27</span></li>
+							<li><span>28</span></li>
+							<li><span>29</span></li>
+							<li><span>30</span></li>
+							<li><span>31</span></li>
+							<li><span>32</span></li>
+							<li><span>33</span></li>
+						</ul>
+						<ul class="ball-style ball-cBlue fix">
+							<li class="on"><span>01</span></li>
+							<li><span>02</span></li>
+							<li><span>03</span></li>
+							<li><span>04</span></li>
+							<li><span>05</span></li>
+							<li><span>06</span></li>
+							<li><span>07</span></li>
+							<li><span>08</span></li>
+							<li><span>09</span></li>
+							<li><span>10</span></li>
+							<li><span>11</span></li>
+							<li><span>12</span></li>
+							<li><span>13</span></li>
+							<li><span>14</span></li>
+							<li><span>15</span></li>
+							<li><span>16</span></li>
+						</ul>
+						<a href="#" class="cursor-choose">
+							<em></em>
+							<i>点击机选</i>
+						</a>
+					</div>
+			</div>
+	</div>
+	<!-- 双色球 ]]-->
+	<!-- 底部固定透明层 [[-->
+	<div class="opacity-black next-option">
+		   <ul class="w fix">
+			   <li><a href="#" class="del-option"></a></li>
+			   <li><span>10注&times;1倍=200元</span></li>
+			   <li><a href="#" class="btn orange-btn">下一步</a></li>
+		   </ul>
+	</div>
+	<!-- 底部固定透明层 ]]-->
+
+
+</body>
